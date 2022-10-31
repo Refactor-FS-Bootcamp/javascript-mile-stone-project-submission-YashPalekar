@@ -1,77 +1,110 @@
-body {
-    background-color: aliceblue;
-    font-family: Montserrat;
+textarea {
+    resize: none;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.float-btn {
+    position: absolute;
+    right: 15px;
+    top: 36px;
+}
+
+.edit-delete {
+    right: 25px;
+}
+
+.btn {
+    border-radius: 100%;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.add-btn {
+    background-color: #0d6efd;
+    height: 60px;
+    width: 60px;
+}
+
+.edit-btn {
+    background-color: #0d6efd;
+    height: 40px;
+    width: 40px;
+    margin: auto 5px;
+}
+
+.delete-btn {
+    background-color: crimson;
+    height: 40px;
+    width: 40px;
+}
+
+.delete-btn:hover {
+    color: crimson;
+}
+
+.card .card-header .card-body {
+    border-radius: 5px;
+}
+
+.card-header {
+    mix-blend-mode:hard-light;
+}
+
+.colors {
     text-align: center;
 }
-table, footer {
-    margin-top: 60px;
-}
-form {
-    background-color: #cfe2ff;
-    padding: 15px;
-    width: 60%;
-    max-width: 600px;
-    margin: 60px auto;
-}
-textarea {
-    font-family: sans-serif;
-}
-button{
-    padding: 10px;
-    background-color: #0d6efd;
-    border-style: none;
+
+.colors span {
+    padding: 10px 18px;
+    margin: auto 2px;
     border-radius: 5px;
-    margin: 5px;
+    cursor: pointer;
 }
-.btn-w-150 {
-    width: 150px;
+
+.colors span.active {
+    border: 2px solid #fff;
+    scale: 1.15;
 }
-.nav-link {
-    color: #fff;
+
+.primary {
+    background-color: #303030;
 }
-.nav-active {
-    background-color: rgb(68, 68, 68);
+
+.yellow {
+    background-color: rgb(121, 121, 21);
 }
-.main {
-    margin: auto;
+
+.red {
+    background-color: rgb(122, 47, 47);
 }
-.heading {
-    text-align: left;
-    padding: 10px 15px;
-    margin: 5px;
+
+.blue {
+    background-color: rgb(40, 65, 141);
 }
-.input-box {
-    padding: 10px;
-    text-align: left;
-    margin: 5px;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: darkgrey;
-    width: 90%;
+
+.green {
+    background-color: rgb(37, 109, 37);
 }
-.btn-delete {
-    background-color: crimson;
-    padding: 0;
+
+.cyan {
+    background-color: rgb(44, 139, 139);
 }
-.btn-edit{
-    padding: 0;
+
+.purple {
+    background-color: rgb(139, 32, 139);
 }
-.fa-solid {
-    padding: 10px;
-}
-.top {
-    margin: 5px 20px;
-    margin-top: 60px;
-}
-.search {
-    width: 30%;
-    left: 20px;
-}
-.btn-search {
-    margin-right: 5px;
-}
-.tableParent {
-    width: 80%; 
-    margin: auto;
+
+.footer {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 0.9rem;
+    position: absolute;
+    right: 3px;
+    bottom: -15px;
 }
